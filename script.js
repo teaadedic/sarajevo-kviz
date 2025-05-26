@@ -1,5 +1,328 @@
 
-const quizData = {"questions": [{"question": "Šta ćeš reći kad naručujes pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}], "variants": [[{"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}], [{"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}], [{"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}], [{"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}, {"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}], [{"question": "Šta je ispravno reći ako želiš da preživiš u buregdžinici i naručiš pitu sa sirom?", "options": ["Burek sa sirom", "Sirnica", "Burek", "Sirni burek"], "correct": 1}, {"question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?", "options": ["Sebilj", "Vijećnica", "Žuta tabija", "Mrtva trka sa ćevapima"], "correct": 0}, {"question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?", "options": ["Tražiti kečap uz ćevape", "Ne hraniti golubove", "Reći da si iz Zagreba", "Pokušati platiti karticom"], "correct": 0}]]};
+const quizData = {
+  "variants": [
+    [
+      {
+        "question": "Kako se kaže gužva u gradu na sarajevski način?",
+        "options": [
+          "Zastoj",
+          "Katastrofa",
+          "Haos",
+          "Makar nema snijega"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Koja igra je najčešća na sarajevskom igralištu?",
+        "options": [
+          "Šah s golubovima",
+          "Lov na čevape",
+          "Fudbal",
+          "Trampolin curling"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Šta NIJE sarajevski specijalitet?",
+        "options": [
+          "Burek",
+          "Ćevapi",
+          "Krofna s nutellom",
+          "Sushi s ajvarom"
+        ],
+        "correct": 3
+      }
+    ],
+    [
+      {
+        "question": "Kako se zna da si pravi Sarajlija u saobraćaju?",
+        "options": [
+          "Imaš tri telefona u ruci",
+          "Voziš autom, ali ideš 100 metara",
+          "Daješ zmigavac kao savjestan građanin",
+          "Trubiš čim ti se promijene misli"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Šta golubovi najviše vole na Baščaršiji?",
+        "options": [
+          "Pjevati",
+          "Selfie s turistima",
+          "Letiti oko Sebilja",
+          "Igrati šah"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Koji sarajevski simbol ima više slika na Instagramu nego Eiffelov toranj?",
+        "options": [
+          "Sebilj",
+          "Vijećnica",
+          "Žuta tabija",
+          "Mrtva trka sa ćevapima"
+        ],
+        "correct": 0
+      }
+    ],
+    [
+      {
+        "question": "Koja je najpoznatija sarajevska ptica?",
+        "options": [
+          "Orao s planine",
+          "Golub s Baščaršije",
+          "Flamingos iz Ilidže",
+          "Vrabac Rambo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Koja rijeka prolazi kroz Sarajevo?",
+        "options": [
+          "Amazon",
+          "Miljacka",
+          "Coca-Cola",
+          "Dunav"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Koje životinje možeš vidjeti u sarajevskoj Pionirskoj dolini?",
+        "options": [
+          "Dinosaure",
+          "Mačke na rolerima",
+          "Pony konjiće i zečeve",
+          "Leteće medvjede"
+        ],
+        "correct": 2
+      }
+    ],
+    [
+      {
+        "question": "Koje godišnje doba u Sarajevu miriše na roštilj?",
+        "options": [
+          "Zima",
+          "Ljeto",
+          "Proljeće",
+          "Jesen, kad se lišće začini"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Šta nikad ne ide uz somun?",
+        "options": [
+          "Ćevapi",
+          "Luk",
+          "Nutella",
+          "Jogurt"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Koja je univerzalna valuta u Sarajevu osim KM?",
+        "options": [
+          "Somuni",
+          "Keš",
+          "Usputne kafe",
+          "Gajba od piva"
+        ],
+        "correct": 2
+      }
+    ],
+    [
+      {
+        "question": "Šta ćeš reći kad naručuješ pitu sa sirom?",
+        "options": [
+          "Burek sa sirom",
+          "Sirnica",
+          "Burek",
+          "Sirni burek"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Kako Sarajlije određuju pravac u gradu?",
+        "options": [
+          "Po GPS-u",
+          "Po rijeci Miljacki",
+          "Po kafanama",
+          "Po uzbrdicama i nizbrdicama"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Šta je najgora greška koju možeš napraviti na Baščaršiji?",
+        "options": [
+          "Tražiti kečap uz ćevape",
+          "Ne hraniti golubove",
+          "Reći da si iz Zagreba",
+          "Pokušati platiti karticom"
+        ],
+        "correct": 0
+      }
+    ],
+    [
+      {
+        "question": "Kako se najbrže hoda po Ferhadiji?",
+        "options": [
+          "Sporim korakom",
+          "Brzim hodom",
+          "Zmijastim putem kroz turiste",
+          "Na rolama"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Kako se zove tradicionalni bosanski napitak koji djeca mogu piti?",
+        "options": [
+          "Kahva",
+          "Rakija",
+          "Boza (sok)",
+          "Energetski sok od pite"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Koja pjesma ti automatski pušta suzu kad si van Sarajeva?",
+        "options": [
+          "Jutros mi je ruža procvjetala",
+          "Despacito",
+          "Smells Like Teen Spirit",
+          "Gangnam Style"
+        ],
+        "correct": 0
+      }
+    ],
+    [
+      {
+        "question": "Kako znaš da si blizu ćevabdžinice?",
+        "options": [
+          "Po mirisu",
+          "Po golubima koji te prate",
+          "Po ljudima koji pjevaju",
+          "Po škripavim vratima"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Kako znaš da si u sarajevskom kafiću?",
+        "options": [
+          "Imaš meni na engleskom",
+          "Na TV-u je utakmica",
+          "Svi gledaju Formulu 1",
+          "Konobar zna tvoju narudžbu napamet"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Koja sarajevska hrana ima supermoći da nestane s tanjira za 3 sekunde?",
+        "options": [
+          "Sarma",
+          "Palačinke",
+          "Ćevapi",
+          "Brokoli"
+        ],
+        "correct": 2
+      }
+    ],
+    [
+      {
+        "question": "Koja je neizgovorena pravila kod ćevapa?",
+        "options": [
+          "Ne jedeš viljuškom",
+          "Jedeš viljuškom",
+          "Piješ fanta exotic",
+          "Sipaš ajvar"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Koji je najpouzdaniji način da saznaš sve gradske tračeve?",
+        "options": [
+          "Radio",
+          "Facebook grupa",
+          "Taksi vozač",
+          "Teta na trafici"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Koji je najbrži način da se posvađaš s nekim iz Sarajeva?",
+        "options": [
+          "Kažeš da su banjalučki ćevapi bolji",
+          "Ne nosiš masku",
+          "Hodaš sporo",
+          "Parkiraš ispravno"
+        ],
+        "correct": 0
+      }
+    ],
+    [
+      {
+        "question": "Koji je najbrži način da se izgubiš u Sarajevu?",
+        "options": [
+          "Uđeš u tramvaj i zaspeš",
+          "Igraš skrivača u Vijećnici",
+          "Letiš na metli iznad Miljacke",
+          "Pošalješ goluba da te vodi"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Kako se zove sarajevska “kućica” za ptice koja je kao fontana?",
+        "options": [
+          "Vodovod tower",
+          "Sebilj",
+          "Golubator",
+          "Hidrantski kafić"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Šta nikako ne smiješ reći u Sarajevu?",
+        "options": [
+          "Da je burek sa sirom",
+          "Da ne voliš kahvu",
+          "Da ne znaš ko je Hanka",
+          "Sve od navedenog"
+        ],
+        "correct": 3
+      }
+    ],
+    [
+      {
+        "question": "Šta najčešće učenik kaže kad treba učiti?",
+        "options": [
+          "Naučio sam",
+          "Kad otkuca puni sat",
+          "Evo za 5 minuta",
+          "Sve navedeno"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Šta djeca najčešće piju dok odrasli piju kahvu?",
+        "options": [
+          "Mlijeko s okusom bureka",
+          "Jogurt",
+          "Energetski sok",
+          "Čaj od ćevapa"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Šta je obavezno kad ideš na Trebević?",
+        "options": [
+          "Planinarske cipele",
+          "Kamera",
+          "Selfie iz žičare",
+          "Kompas"
+        ],
+        "correct": 2
+      }
+    ]
+  ]
+};
 
 let currentQuestionIndex = 0;
 let currentQuiz = [];
