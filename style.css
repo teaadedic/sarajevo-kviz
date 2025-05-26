@@ -1,0 +1,128 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('download\ \(1\).jpeg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #d97706;
+}
+
+header p {
+  color: #333;
+}
+
+.logo {
+  width: 70px;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  background-color: #fbbf24;
+  color: #111827;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #f59e0b;
+}
+
+.hidden {
+  display: none;
+}
+
+.question {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.question p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.option-card {
+  display: block;
+  background: #fff7ed;
+  border: 2px solid #fcd34d;
+  border-radius: 16px;
+  padding: 15px;
+  margin: 12px auto;
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option-card:hover {
+  background: #fde68a;
+}
+
+.option-card.selected {
+  background: #facc15;
+  border-color: #fbbf24;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#result {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: green;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .option-card {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

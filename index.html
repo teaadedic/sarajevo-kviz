@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarajevski Kviz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="ius-logo.png" alt="IUS Logo" class="logo" />
+      <h1>Sarajevski Kviz</h1>
+      <p>Izaberi jedan od 10 kratkih kvizova i testiraj svoje znanje o Sarajevu!</p>
+    </header>
+
+    <section id="quiz-selector">
+      <h2>Izaberi kviz</h2>
+      <div id="buttons" class="button-grid"></div>
+    </section>
+
+    <section id="quiz-tab" class="hidden">
+      <h2 id="quiz-title"></h2>
+      <div id="quiz"></div>
+      <div id="result" class="hidden"></div>
+      <button id="back-btn">Nazad na izbor kviza</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
