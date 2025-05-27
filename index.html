@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="bs">
 <head>
@@ -16,20 +15,22 @@
     </header>
 
     <section id="quiz-selector">
-      <h2>Izaberi kviz</h2>
+      <h2 id="quiz-title">Kategorije</h2>
       <div id="buttons" class="button-grid"></div>
     </section>
 
     <section id="quiz-tab" class="hidden">
-      <h2 id="quiz-title"></h2>
+      <h2></h2>
       <div id="quiz"></div>
       <div id="result" class="hidden"></div>
-      <button id="back-btn">Nazad na izbor kviza</button>
     </section>
+
+    <div id="back-container" class="hidden" style="text-align: left; margin-top: 20px;">
+      <button id="back-btn">Nazad na izbor kategorija</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   </div>
-
-  <script src="script.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>

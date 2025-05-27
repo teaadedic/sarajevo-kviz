@@ -1,17 +1,16 @@
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('sebilj.jpg') no-repeat center center fixed;
+  background: url('ChatGPT Image May 27, 2025, 07_28_34 PM.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  width: 90%;
-  max-width: 700px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.95);
+  width: 95%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.6);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -28,6 +27,9 @@ header h1 {
 
 header p {
   color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .logo {
@@ -53,6 +55,8 @@ button {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
+  margin: 8px 6px;
+  margin-top: 10px;
 }
 
 button:hover {
@@ -73,19 +77,26 @@ button:hover {
   font-weight: bold;
 }
 
+.option-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
 .option-card {
-  display: block;
   background: #fff7ed;
   border: 2px solid #fcd34d;
   border-radius: 16px;
-  padding: 15px;
-  margin: 12px auto;
-  width: 90%;
-  max-width: 400px;
-  text-align: left;
+  padding: 15px 20px;
+  min-width: 150px;
+  text-align: center;
   font-size: 1.1rem;
   cursor: pointer;
   transition: background 0.3s ease;
+  white-space: nowrap;
 }
 
 .option-card:hover {
@@ -110,19 +121,30 @@ input[type="radio"] {
   color: green;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .container {
-    padding: 15px;
+    max-width: 100%;
+    padding: 20px;
   }
 
-  button {
-    font-size: 1rem;
-    padding: 10px;
-    width: 100%;
+  .option-group {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .option-card {
-    width: 100%;
+    min-width: 120px;
     font-size: 1rem;
   }
+
+  button {
+    width: 100%;
+  }
+}
+
+#feedback-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+  margin-top: 20px;
 }
